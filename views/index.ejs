@@ -20,9 +20,9 @@
                      <h4 class="font-semibold pt-2">@content : <%= posts.content %></h4>
                      <div class="flex gap-4 pt-4">
                          <a class="hover:text-blue-500 text-white transition-all duration-300 pb-0 border-b border-blue-400 font-medium text-sm"
-                             href="http://localhost:3000/posts/<%=posts.id %>">see in details</a>
+                             href="https://api-with-ejs.onrender.com/posts/<%=posts.id %>">see in details</a>
                          <a class="hover:text-blue-500 text-white transition-all duration-300 pb-0 border-b border-blue-400 font-medium text-sm"
-                             href="http://localhost:3000/posts/<%=posts.id %>/edit">Edit</a>
+                             href="https://api-with-ejs.onrender.com/posts/<%=posts.id %>/edit">Edit</a>
                      </div>
                      <br>
                      <form method="post" action="/posts/<%= posts.id %>?_method=DELETE">
@@ -35,7 +35,7 @@
              <% } %>
          </div>
          <a class="hover:text-blue-500 ms-3 pt-4 transition-all duration-300 pb-0 border-b border-blue-400 font-medium text-sm"
-             href="http://localhost:3000/posts/new">create new posts</a>
+             href="https://api-with-ejs.onrender.com/posts/new">create new posts</a>
     </div>
    </section>
 </body>
