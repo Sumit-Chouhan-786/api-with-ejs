@@ -25,7 +25,7 @@
                              href="https://api-with-ejs.onrender.com/posts/<%=posts.id %>/edit">Edit</a>
                      </div>
                      <br>
-                     <form method="post" action="/<%= posts.id %>?_method=DELETE">
+                     <form method="post" action="/posts/<%= posts.id %>?_method=DELETE">
                          <button
                              class="py-2 px-3 bg-blue-500 hover:scale-110 transition-all duration-300 text-white rounded-lg text-sm">Delete
                              post</button>

@@ -33,7 +33,7 @@ let posts = [
 app.get("/", (req, res) => {
   res.render("./index.ejs", { posts });
 });
-app.get("/posts/new", (req, res) => {
+app.post("/posts/new", (req, res) => {
   res.render("./new.ejs", { posts });
 });
 
